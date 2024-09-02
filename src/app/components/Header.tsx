@@ -23,7 +23,7 @@ const Header: React.FC = () => {
       <div className="flex items-center mt-2">
         <span className="font-extralight">A Database For All Workouts & Exercises</span>
         <FaInfoCircle
-          className="ml-2 cursor-pointer"
+          className="hidden md:flex ml-2 cursor-pointer"
           onMouseEnter={() => setTooltipVisible(true)}
           onMouseLeave={() => setTooltipVisible(false)}
         />
