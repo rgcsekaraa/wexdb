@@ -20,7 +20,7 @@ const WorkoutCard: React.FC<WorkoutCardProps> = ({ name, videoUrl }) => {
 
   return (
     <div ref={ref} className="bg-black shadow-lg rounded-lg mb-4">
-      <h2 className="text-2xl text-white font-normal mb-2 p-1 flex justify-center">{name}</h2>
+      <h2 className="text-2xl text-white font-normal mb-2 mt-1 p-1 flex justify-center">{name}</h2>
       <div className="aspect-w-16 aspect-h-9 relative">
         {!isLoaded && (
           <div className="absolute inset-0 flex items-center justify-center bg-gray-800">
