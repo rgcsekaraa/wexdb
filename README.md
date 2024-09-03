@@ -13,16 +13,22 @@ WEXDB (Workout Exercise Database) is a community-driven exercise database that a
 The `workouts.json` file is the heart of the project. It contains a list of exercises, each with a name and a corresponding YouTube link. Below is an example of how the JSON file is structured:
 
 ```json
-[
+{
+  "lastUpdated": "2024-09-02T10:00:00Z",
+  "exercises": [
     {
-        "name": "Handstand",
-        "youtube_link": "https://www.youtube.com/watch?v=XXXXXXX"
+      "name": "Plank",
+      "videoUrl": "https://www.youtube.com/watch?v=pSHjTRCQxIw"
     },
     {
-        "name": "L-sit",
-        "youtube_link": "https://www.youtube.com/watch?v=YYYYYYY"
+      "name": "Lunges",
+      "videoUrl": "https://www.youtube.com/watch?v=COKYKgQ8KR0"
+    },
+    {
+      "name": "Burpees",
+      "videoUrl": "https://www.youtube.com/watch?v=dZgVxmf6jkA"
     }
-]
+}
 
 ```
 ## How to Contribute
